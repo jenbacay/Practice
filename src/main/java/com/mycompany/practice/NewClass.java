@@ -39,10 +39,6 @@ public class NewClass extends JFrame implements ActionListener{
         scrollPane = new JScrollPane(list);
         scrollPane.setBounds(20, 20, 345, 180);
         add(scrollPane);
-        
-        total = new JLabel("Total Tasks: 0");
-        total.setBounds(20, 210, 200, 25);
-        add(total);
 
         // 3. JTextField
         txtField = new JTextField();
